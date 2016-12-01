@@ -1,0 +1,24 @@
+{
+  "webserver" : {
+    "port" : 7082,
+    "basePath": "/services/measureservice",
+  },
+   "services":{
+        "proxy": false,
+          "host":"localhost",
+          "port":8080,
+          "secure":false,
+          "paths":{
+          	"psd":"/services/psd"
+          }
+        },
+  "sparql":{
+	"ontologyPrefix": "ipa:",
+	"ontologyUri": "http://www.appsist.de/ontology/mbb/"	
+  },
+  "demosettings":{
+  "active":true,
+  	"users":[{"username":"alice.tester@example.com", "machinestate":"{ipa:LoctiteLeer}"}, {"username":"bob.tester@example.com", "machinestate":"{ipa:FehlendesBauteil}"}]
+  }
+  
+} 

@@ -1,0 +1,170 @@
+<html>
+	<head><meta charset="UTF-8"><title>Maschinenzust&auml;nde vs. Stationen</title>
+	
+	</head>
+	<body>
+		<h2>Stationen Brabant &amp; Lehnert</h2>
+		<table>
+		<tr><th>Station</th><th/><th>Maschinenzustand</th><tr>
+		<tr><td>5-Achs-Fr&auml;szentrum</td><td/><td>
+		<select name="5AchsFraeszentrum" onchange="genMSCE('bul',this.name, this.value)">
+		<option value"FunktionsfaehigerZustand">Funktionsf&auml;higer Zustand</option>
+	<option value"Betriebszustand">Betriebszustand</option>
+	<option value"Warnung">Warnung</option>
+	<option value"GemessenerFehler">Gemessener Fehler</option>
+	<option value"WerkstoffWenig">Werkstoff Wenig</option>
+	<option value"Warnungsfrei">Warnungsfrei</option>
+	<option value"Stillstand">Stillstand</option>
+	<option value"Stoerung">St&ouml;rung</option>
+	<option value"AnlagenbedingteStoerung">Anlagenbedingte St&ouml;rung</option>
+	<option value"ExterneStoerung">ExterneSt&ouml;rung</option>
+	<option value"WerkstoffLeer">Werkstoff Leer</option>
+		</select></td><tr>
+		</table>
+		<h2>Stationen Festo</h2>
+		<table>
+		<tr><th>Station</th><th/><th>Maschinenzustand</th><tr>
+		<tr><td>DNC_DNCB_DSBC</td><td/><td><select name="DNC_DNCB_DSBC" onchange="genMSCE('festo',this.name,this.value)">
+<option value"FunktionsfaehigerZustand">Funktionsf&auml;higer Zustand</option>
+	<option value"Betriebszustand">Betriebszustand</option>
+	<option value"Warnung">Warnung</option>
+	<option value"GemessenerFehler">Gemessener Fehler</option>
+	<option value"WerkstoffWenig">Werkstoff Wenig</option>
+	<option value"Warnungsfrei">Warnungsfrei</option>
+	<option value"Stillstand">Stillstand</option>
+	<option value"Stoerung">St&ouml;rung</option>
+	<option value"AnlagenbedingteStoerung">Anlagenbedingte St&ouml;rung</option>
+	<option value"ExterneStoerung">ExterneSt&ouml;rung</option>
+	<option value"WerkstoffLeer">Werkstoff Leer</option>
+	<option value"festo/FettLeer">Fett Leer</option>
+	<option value"festo/LoctiteLeer">Loctite Leer</option>
+</select></td><tr>
+		<tr><td>Station 10, Kommissionierplatz</td><td/><td><select name="S10" onchange="genMSCE('festo',this.name,this.value)">
+		<option value"FunktionsfaehigerZustand">Funktionsf&auml;higer Zustand</option>
+	<option value"Betriebszustand">Betriebszustand</option>
+	<option value"Warnung">Warnung</option>
+	<option value"GemessenerFehler">Gemessener Fehler</option>
+	<option value"WerkstoffWenig">Werkstoff Wenig</option>
+	<option value"Warnungsfrei">Warnungsfrei</option>
+	<option value"Stillstand">Stillstand</option>
+	<option value"Stoerung">St&ouml;rung</option>
+	<option value"AnlagenbedingteStoerung">Anlagenbedingte St&ouml;rung</option>
+	<option value"ExterneStoerung">ExterneSt&ouml;rung</option>
+	<option value"WerkstoffLeer">Werkstoff Leer</option>
+	<option value"festo/FettLeer">Fett Leer</option>
+	<option value"festo/LoctiteLeer">Loctite Leer</option></select></td><tr>
+		<tr><td>Station 20, Schraubstation</td><td/><td><select name="S20" onchange="genMSCE('festo',this.name,this.value)">
+		<option value"FunktionsfaehigerZustand">Funktionsf&auml;higer Zustand</option>
+	<option value"Betriebszustand">Betriebszustand</option>
+	<option value"Warnung">Warnung</option>
+	<option value"GemessenerFehler">Gemessener Fehler</option>
+	<option value"WerkstoffWenig">Werkstoff Wenig</option>
+	<option value"Warnungsfrei">Warnungsfrei</option>
+	<option value"Stillstand">Stillstand</option>
+	<option value"Stoerung">St&ouml;rung</option>
+	<option value"AnlagenbedingteStoerung">Anlagenbedingte St&ouml;rung</option>
+	<option value"ExterneStoerung">ExterneSt&ouml;rung</option>
+	<option value"WerkstoffLeer">Werkstoff Leer</option>
+	<option value"festo/FettLeer">Fett Leer</option>
+	<option value"festo/LoctiteLeer">Loctite Leer</option>
+		</select></td><tr>
+		<tr><td>Station 30, Befettstation</td><td/><td>
+		<select name="S30" onchange="genMSCE('festo',this.name,this.value)"><option value"FunktionsfaehigerZustand">Funktionsf&auml;higer Zustand</option>
+	<option value"Betriebszustand">Betriebszustand</option>
+	<option value"Warnung">Warnung</option>
+	<option value"GemessenerFehler">Gemessener Fehler</option>
+	<option value"WerkstoffWenig">Werkstoff Wenig</option>
+	<option value"Warnungsfrei">Warnungsfrei</option>
+	<option value"Stillstand">Stillstand</option>
+	<option value"Stoerung">St&ouml;rung</option>
+	<option value"AnlagenbedingteStoerung">Anlagenbedingte St&ouml;rung</option>
+	<option value"ExterneStoerung">ExterneSt&ouml;rung</option>
+	<option value"WerkstoffLeer">Werkstoff Leer</option>
+	<option value"festo/FettLeer">Fett Leer</option>
+	<option value"festo/LoctiteLeer">Loctite Leer</option></select></td><tr>
+		<tr><td>Station 40, Montagestation</td><td/><td><select name="S40" onchange="genMSCE('festo',this.name,this.value)"><option value"FunktionsfaehigerZustand">Funktionsf&auml;higer Zustand</option>
+	<option value"Betriebszustand">Betriebszustand</option>
+	<option value"Warnung">Warnung</option>
+	<option value"GemessenerFehler">Gemessener Fehler</option>
+	<option value"WerkstoffWenig">Werkstoff Wenig</option>
+	<option value"Warnungsfrei">Warnungsfrei</option>
+	<option value"Stillstand">Stillstand</option>
+	<option value"Stoerung">St&ouml;rung</option>
+	<option value"AnlagenbedingteStoerung">Anlagenbedingte St&ouml;rung</option>
+	<option value"ExterneStoerung">ExterneSt&ouml;rung</option>
+	<option value"WerkstoffLeer">Werkstoff Leer</option>
+	<option value"festo/FettLeer">Fett Leer</option>
+	<option value"festo/LoctiteLeer">Loctite Leer</option></select></td><tr>
+		</table>	
+		<h2>Stationen LPS</h2>
+		<table>
+		<tr><th>Station</th><th/><th>Maschinenzustand</th><tr>
+		<tr><td>FZ15 - 5-Achs-Fr&auml;szentrum</td><td/><td><select name="FZ15" onchange="genMSCE('lps',this.name,this.value)"><option value"FunktionsfaehigerZustand">Funktionsf&auml;higer Zustand</option>
+	<option value"Betriebszustand">Betriebszustand</option>
+	<option value"Warnung">Warnung</option>
+	<option value"GemessenerFehler">Gemessener Fehler</option>
+	<option value"WerkstoffWenig">Werkstoff Wenig</option>
+	<option value"Warnungsfrei">Warnungsfrei</option>
+	<option value"Stillstand">Stillstand</option>
+	<option value"Stoerung">St&ouml;rung</option>
+	<option value"AnlagenbedingteStoerung">Anlagenbedingte St&ouml;rung</option>
+	<option value"ExterneStoerung">ExterneSt&ouml;rung</option>
+	<option value"WerkstoffLeer">Werkstoff Leer</option></select></td><tr>
+		</table>
+		
+		<h2>Stationen MBB</h2>
+		<table>
+		<tr><th>Station</th><th/><th>Maschinenzustand</th><tr>
+		<tr><td>MBB Produktionsanlage</td><td/><td><select name="MBBProduktionsanlage" onchange="genMSCE('mbb',this.name,this.value)">
+	<option value"FunktionsfaehigerZustand">Funktionsf&auml;higer Zustand</option>
+	<option value"Betriebszustand">Betriebszustand</option>
+	<option value"Warnung">Warnung</option>
+	<option value"GemessenerFehler">Gemessener Fehler</option>
+	<option value"mbb/FehlendesBauteil">Fehlendes Bauteil</option>
+	<option value"mbb/FestbrandSchweissprozess">Festbrand Schweissprozess</option>
+	<option value"WerkstoffWenig">Werkstoff Wenig</option>
+	<option value"Warnungsfrei">Warnungsfrei</option>
+	<option value"Stillstand">Stillstand</option>
+	<option value"Stoerung">St&ouml;rung</option>
+	<option value"AnlagenbedingteStoerung">Anlagenbedingte St&ouml;rung</option>
+	<option value"ExterneStoerung">ExterneSt&ouml;rung</option>
+	<option value"WerkstoffLeer">Werkstoff Leer</option>
+</select></td><tr>
+		<tr><td>Nockenwellenpr&uuml;fstation</td><td/><td>
+		<select name="Pruefstation" onchange="genMSCE('mbb',this.name,this.value)">
+		<option value"FunktionsfaehigerZustand">Funktionsf&auml;higer Zustand</option>
+	<option value"Betriebszustand">Betriebszustand</option>
+	<option value"Warnung">Warnung</option>
+	<option value"GemessenerFehler">Gemessener Fehler</option>
+	<option value"mbb/FehlendesBauteil">Fehlendes Bauteil</option>
+	<option value"mbb/FestbrandSchweissprozess">Festbrand Schweissprozess</option>
+	<option value"WerkstoffWenig">Werkstoff Wenig</option>
+	<option value"Warnungsfrei">Warnungsfrei</option>
+	<option value"Stillstand">Stillstand</option>
+	<option value"Stoerung">St&ouml;rung</option>
+	<option value"AnlagenbedingteStoerung">Anlagenbedingte St&ouml;rung</option>
+	<option value"ExterneStoerung">ExterneSt&ouml;rung</option>
+	<option value"WerkstoffLeer">Werkstoff Leer</option></select></td><tr>
+		</table>
+
+	
+	
+	<script type="text/javascript" src="./jquery.js"></script>
+	<script type="text/javascript">
+  
+	function genMSCE(ipa,device, ms){
+		console.log("industrial partner = "+ipa);
+		console.log("station = "+device);
+		console.log("machinestate = "+ms);
+	}
+	function loadMeasures(measure){
+	 var buildUrl = "/supportmeasures/"+measure+"/for/"+$("input[name=currentUser]:checked").val();
+	 window.location = buildUrl;
+	}
+	</script>
+	
+	
+	
+	
+	</body>
+</html>
